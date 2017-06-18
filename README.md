@@ -24,14 +24,12 @@ Features :
 
 If you are not using a D1 mini then you can either build them from discrete components or use NodeMCU boards with arduino relay shields and I assume you know what you are doing :) 
 
+Anyway,  I usually power the D1 from a USB supply and then all you need to do is lop the end off the flashing light and connect it to a 12v source and somewhere in the circuit cut one of the wires and put them into the relay using the common and normally open positions.
+
 
 # Software
 
 Assuming you have your Arduino IDE setup for ESP8266 boards (if not then just google) then download the code, open it,  edit the config section and flash it to your device.  If you are not using a D1 mini then edit the pin (it is in the code). 
-
-
-
-
 
 
 
